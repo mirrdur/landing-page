@@ -7,6 +7,8 @@ body {
     flex: 1;
 }
 
+/* body elements above - Next section top header line only */
+
 img {
     border: 2px solid black;
 }
@@ -38,6 +40,8 @@ a {
     display: flex;
 
 }
+
+/* end of upper header line. below start of top section of page */
 
 .header {
     background-color: #1F2937;
@@ -72,8 +76,9 @@ a {
     margin-left: 16px;
 }
 
-
-button {
+#signuptop {
+    background-color: #3882f6;
+    color: #f9faf8;
     padding: 8px 16px; 
     margin-bottom: 16px;
 }
@@ -84,11 +89,49 @@ button {
     margin: 16px;
 }
 
+/* end of top section. start of section two. */
+
 .body {
     background-color: lightgrey;
-
-
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+    align-items: center ;
+    padding-bottom: 32px;
+    
 }
+
+.headtwo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.picturealign {
+    display: flex;
+    flex: 1;
+    gap: 2em;
+}
+
+.pictext {
+    font-weight: normal;
+    font-size: 16px;
+    display: flex; 
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.subhead {
+    display: flex; 
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    width: 128px;
+}
+/* end of section two. start of section three. */
 
 .tail {
     background-color: #e5e7eb;
@@ -96,12 +139,22 @@ button {
 
 }
 
+/* end of section three. start of main footer */
+
 .footer {
     background-color: whitesmoke;
 
 
 }
 
+/* end of main footer. start of bottom footer line */
+
 .bottomfoot {
     background-color: #1F2937;
 }
+
+
+/*end of css page - any misc. comments below.
+
+
+*/
