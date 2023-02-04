@@ -164,6 +164,50 @@ a {
 .footer {
     background-color: whitesmoke;
 
+}
+
+.actionbox {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+   margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px; border-radius: 1em;
+    justify-content: space-around;
+}
+
+.actiontext {
+    display: flex;  
+    flex-direction: column;
+    margin-left: 64px;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.mainaction {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.subaction {
+    font-size: 12px;
+    padding: 0;
+
+}
+
+#actionbutton {    
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: #3882f6;
+    color: white;
+    padding: 1em 2em;
+    margin-top: auto;
+    display: flex;
 
 }
 
@@ -171,10 +215,23 @@ a {
 
 .bottomfoot {
     background-color: #1F2937;
+    color: #f9faf8;
+
+}
+
+#copyright {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 
 /*end of css page - any misc. comments below.
+ first time through done - can't figure out is main footer section how
+ to center sign up button in blue box vertically - lined up correctly
+ with actionbox justify spacearound
 
+ Same with the text in blue box
+ cant get closer together vertically in box
 
 */
