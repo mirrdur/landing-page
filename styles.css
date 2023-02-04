@@ -135,8 +135,28 @@ a {
 
 .tail {
     background-color: #e5e7eb;
+    
+}
 
+#quotetext {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
 
+#quoteauthor {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.quote {
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 /* end of section three. start of main footer */
