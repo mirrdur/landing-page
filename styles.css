@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tophead {
+    background-color: #1F2937;
+
+
+}
+
+.header {
+    background-color: #1F2937;
+
+
+}
+
+.body {
+    background-color: white;
+
+
+}
+
+.tail {
+    background-color: #e5e7eb;
+
+
+}
+
+.footer {
+    background-color: whitesmoke;
+
+
+}
+
+.bottomfoot {
+    background-color: #1F2937;
+}
